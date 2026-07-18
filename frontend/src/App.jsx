@@ -12,7 +12,7 @@ export default function App() {
   // Auto-detects if you are testing locally or running on a live server
   const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
     ? 'http://127.0.0.1:8000'
-    : 'https://onrender.com'; // Replace this later when you host the backend
+    : 'https://cardio-risk-app-ghi0.onrender.com'; // Replace this later when you host the backend
 
   const handleNumChange = (e) => {
     const { name, value } = e.target;
